@@ -1,0 +1,12 @@
+version: '3'
+services:
+  qrcode-generator:
+    build: .
+    image: qrcode-generator
+    container_name: qrcode-generator
+    restart: unless-stopped
+
+networks:
+  default:
+    name: nginx
+    external: true
