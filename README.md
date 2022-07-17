@@ -1,3 +1,5 @@
+From: https://github.com/bizzycola/qrcode-generator
+
 # QR Code Generator UI
 Basic docker container with a HTML/CSS/JS ui to generate a QR Code from a provided URL.
 Uses tailwind CSS and qrcode.js
